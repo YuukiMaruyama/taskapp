@@ -13,7 +13,10 @@
 		CE092CDB223C737D002F92E5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE092CD9223C737D002F92E5 /* Main.storyboard */; };
 		CE092CDD223C737F002F92E5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE092CDC223C737F002F92E5 /* Assets.xcassets */; };
 		CE092CE0223C737F002F92E5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE092CDE223C737F002F92E5 /* LaunchScreen.storyboard */; };
+		CE0F47DC224C99CD00EB5E9D /* AddCategoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE0F47DB224C99CD00EB5E9D /* AddCategoryViewController.swift */; };
+		CE0F47DE224C9F1100EB5E9D /* Category.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE0F47DD224C9F1100EB5E9D /* Category.swift */; };
 		CEE13A39223DB0FB00796E0B /* InputViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEE13A38223DB0FB00796E0B /* InputViewController.swift */; };
+		CEF1E56B223E3974003FB199 /* Task.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEF1E56A223E3974003FB199 /* Task.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,7 +28,10 @@
 		CE092CDC223C737F002F92E5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CE092CDF223C737F002F92E5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CE092CE1223C737F002F92E5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CE0F47DB224C99CD00EB5E9D /* AddCategoryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddCategoryViewController.swift; sourceTree = "<group>"; };
+		CE0F47DD224C9F1100EB5E9D /* Category.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Category.swift; sourceTree = "<group>"; };
 		CEE13A38223DB0FB00796E0B /* InputViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InputViewController.swift; sourceTree = "<group>"; };
+		CEF1E56A223E3974003FB199 /* Task.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Task.swift; sourceTree = "<group>"; };
 		CF88FB91F26B8B470F7E3082 /* Pods-taskapp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-taskapp.debug.xcconfig"; path = "Target Support Files/Pods-taskapp/Pods-taskapp.debug.xcconfig"; sourceTree = "<group>"; };
 		E960F3FF2050876B1A8305CF /* Pods_taskapp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_taskapp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -56,7 +62,6 @@
 				CF88FB91F26B8B470F7E3082 /* Pods-taskapp.debug.xcconfig */,
 				333C2BCE6A5CEC8D3A03BD57 /* Pods-taskapp.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -84,10 +89,13 @@
 				CE092CD5223C737D002F92E5 /* AppDelegate.swift */,
 				CE092CD7223C737D002F92E5 /* ViewController.swift */,
 				CE092CD9223C737D002F92E5 /* Main.storyboard */,
+				CE0F47DD224C9F1100EB5E9D /* Category.swift */,
 				CE092CDC223C737F002F92E5 /* Assets.xcassets */,
 				CE092CDE223C737F002F92E5 /* LaunchScreen.storyboard */,
 				CE092CE1223C737F002F92E5 /* Info.plist */,
 				CEE13A38223DB0FB00796E0B /* InputViewController.swift */,
+				CE0F47DB224C99CD00EB5E9D /* AddCategoryViewController.swift */,
+				CEF1E56A223E3974003FB199 /* Task.swift */,
 			);
 			path = taskapp;
 			sourceTree = "<group>";
@@ -214,9 +222,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CEF1E56B223E3974003FB199 /* Task.swift in Sources */,
+				CE0F47DC224C99CD00EB5E9D /* AddCategoryViewController.swift in Sources */,
 				CEE13A39223DB0FB00796E0B /* InputViewController.swift in Sources */,
 				CE092CD8223C737D002F92E5 /* ViewController.swift in Sources */,
 				CE092CD6223C737D002F92E5 /* AppDelegate.swift in Sources */,
+				CE0F47DE224C9F1100EB5E9D /* Category.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
